@@ -11,7 +11,7 @@ namespace BuildWeekMattia
 {
 
 
-    public partial class BackOffice
+    public partial class History
     {
 
         /// <summary>
@@ -24,21 +24,21 @@ namespace BuildWeekMattia
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Controllo Button3.
+        /// Controllo idordine.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button3;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl idordine;
 
         /// <summary>
-        /// Controllo RepeaterBackoffice.
+        /// Controllo ordini.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater RepeaterBackoffice;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl ordini;
     }
 }

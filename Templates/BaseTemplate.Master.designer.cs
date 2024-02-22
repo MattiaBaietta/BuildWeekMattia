@@ -7,83 +7,56 @@
 // </generato automaticamente>
 //------------------------------------------------------------------------------
 
-namespace BuildWeekMattia
+namespace E_Commerce_Epicode_Buildweek
 {
 
 
-    public partial class BackOfficeDetails
+    public partial class Template
     {
 
         /// <summary>
-        /// Controllo imgurl.
+        /// Controllo head.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlImage imgurl;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
 
         /// <summary>
-        /// Controllo Urltxt.
+        /// Controllo form1.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Urltxt;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Controllo Desctxt.
+        /// Controllo loginLink.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Desctxt;
+        protected global::System.Web.UI.WebControls.LinkButton loginLink;
 
         /// <summary>
-        /// Controllo Nametxt.
+        /// Controllo logoutLink.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Nametxt;
+        protected global::System.Web.UI.WebControls.LinkButton logoutLink;
 
         /// <summary>
-        /// Controllo Dettxt.
+        /// Controllo ContentPlaceHolder1.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Dettxt;
-
-        /// <summary>
-        /// Controllo Pricetxt.
-        /// </summary>
-        /// <remarks>
-        /// Campo generato automaticamente.
-        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Pricetxt;
-
-        /// <summary>
-        /// Controllo Mod.
-        /// </summary>
-        /// <remarks>
-        /// Campo generato automaticamente.
-        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Mod;
-
-        /// <summary>
-        /// Controllo DelBtn.
-        /// </summary>
-        /// <remarks>
-        /// Campo generato automaticamente.
-        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button DelBtn;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
     }
 }

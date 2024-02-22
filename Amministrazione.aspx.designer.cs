@@ -11,79 +11,70 @@ namespace BuildWeekMattia
 {
 
 
-    public partial class BackOfficeDetails
+    public partial class Amministrazione
     {
 
         /// <summary>
-        /// Controllo imgurl.
+        /// Controllo RepeaterBackoffice.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlImage imgurl;
+        protected global::System.Web.UI.WebControls.Repeater RepeaterBackoffice;
 
         /// <summary>
-        /// Controllo Urltxt.
+        /// Controllo TextBoxNome.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Urltxt;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxNome;
 
         /// <summary>
-        /// Controllo Desctxt.
+        /// Controllo TextBoxDescrizione.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Desctxt;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxDescrizione;
 
         /// <summary>
-        /// Controllo Nametxt.
+        /// Controllo TextBoxDettagli.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Nametxt;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxDettagli;
 
         /// <summary>
-        /// Controllo Dettxt.
+        /// Controllo TextBoxPrezzo.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Dettxt;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxPrezzo;
 
         /// <summary>
-        /// Controllo Pricetxt.
+        /// Controllo TextBoxImg.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Pricetxt;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxImg;
 
         /// <summary>
-        /// Controllo Mod.
+        /// Controllo SaveChanges.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Mod;
-
-        /// <summary>
-        /// Controllo DelBtn.
-        /// </summary>
-        /// <remarks>
-        /// Campo generato automaticamente.
-        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button DelBtn;
+        protected global::System.Web.UI.WebControls.Button SaveChanges;
     }
 }
